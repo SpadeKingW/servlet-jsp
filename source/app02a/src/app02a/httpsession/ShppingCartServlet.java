@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 @WebServlet(name="ShppingCartServlet",urlPatterns= {
-		"/prducts","/viewProductDetails",
+		"/products","/viewProductDetails",
 		"/addToCart","/viewCart"
 })
 public class ShppingCartServlet extends HttpServlet {
