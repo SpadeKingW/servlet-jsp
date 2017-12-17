@@ -4,12 +4,12 @@ public class Product {
 	private int id ;
 	private String name;
 	private String description;
-	private float prive;
+	private float price;
 	public Product(int id, String name, String description, float prive) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
-		this.prive = prive;
+		this.price = prive;
 	}
 	public int getId() {
 		return id;
@@ -29,11 +29,11 @@ public class Product {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public float getPrive() {
-		return prive;
+	public float getPrice() {
+		return price;
 	}
-	public void setPrive(float prive) {
-		this.prive = prive;
+	public void setPrice(float prive) {
+		this.price = prive;
 	}
 	
 	
